@@ -1,0 +1,131 @@
+.aboutUS{
+    width: 95%; 
+    margin: auto;
+}
+*{
+    font-family: sans-serif;
+}
+
+.about-us-container{
+   width: 100%;
+   /* height: 50%; */
+   display: flex;
+   margin-top:50px;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+   
+}
+
+.companion-image{
+    position: relative;
+    width: 100%;
+    height: 219px;
+    
+}
+
+.companion-text{
+    height: 90%;
+    border: black 1px ridge;
+    width: 40%;
+}
+
+.about-us-container p{
+    width: 90%;
+    padding-bottom:10px ;
+    margin: auto;
+}
+
+.about-us-container:hover{
+    transform: scale(1.01);
+}
+
+.about-us-container h3{
+    margin: 10px 10px;   
+   text-align: center;
+}
+
+.our-mission-container:hover{
+    transform: scale(1.01);
+}
+
+.about{
+    text-align: right;
+}
+
+.our-mission-container{
+    display: flex;
+   justify-content: flex-start;
+    margin-top: 50px;
+    margin-bottom: 30px;
+   
+}
+
+
+.our-mission-container p{
+    width: 90%;
+    padding-bottom: 10px;
+    margin: auto;
+    text-align: left;
+}
+
+
+.our-mission-container h3{
+    margin: 10px 10px;
+    text-align: center;
+}
+
+.testimonials{
+    margin-top: 50px;
+    display: flex;
+    margin-bottom: 50px;    
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.testimonial-container{
+    background: crimson ;
+    border-radius: 10px;
+    border: darkblue 0.1rem solid;
+    padding: 10px 10px;
+    margin-top: 10px;
+}
+
+table{
+    background: white;
+    border-collapse: collapse;
+}
+
+.left-container, .right-container {
+    height: 100px;
+}
+
+.left-container{
+    border: black 1px ridge; 
+}
+
+.left-container td{
+    width: 100%;
+}
+
+.testimonials ul{
+    list-style-type: none;
+}
+
+.right-container{
+    border-bottom:black 1px ridge; 
+    border-top: black 1px ridge; 
+    border-right:  black 1px ridge; 
+
+}
+
+td{
+    padding: 8px;
+}
+
+/* .left-container td h4,p{
+    text-align: center;
+}
+
+.right-container td h4,p{
+    text-align: center;
+} */

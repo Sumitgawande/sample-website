@@ -1,0 +1,167 @@
+
+.hero-container{
+    width: 100%;
+    object-fit: contain;
+    margin: auto;
+}
+
+.img-container {
+    display: flex; 
+    position: relative;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.img-main{
+    /* background-color: url('../CardItems/travel_agency.jpg'); */
+    margin: auto;
+    position: relative;
+    z-index: -1;
+    height: auto;
+    width: 100%;
+}
+
+.heading-text{
+    /* position: absolute; */
+    font-size: 2rem;
+   padding-bottom: 30px;
+}
+
+
+.text-overlap{
+    width: 100%;
+    display: flex;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.image-text{
+    /* justify-content: center; */
+    position: absolute;  
+    padding-top: 60px;
+    font-size: 1.5rem;
+}
+
+.img-main-mobile{
+    display: none;
+}
+
+@media screen and(min-width:1028px){
+    .hero-container{
+        width: 85%;
+    }
+}
+
+@media screen and (max-width:240px){
+   .heading-text{
+    font-size: 1rem;
+    padding-bottom: 15px;   
+   }
+
+  
+.image-text{
+    font-size: .8rem;
+}
+
+  
+}
+
+@media screen and (max-width:280px) and (min-width:241px){
+    .heading-text{
+     font-size: 1.5rem;
+     padding-bottom: 15px;   
+    }
+ 
+ 
+ 
+ .image-text{
+     font-size: 1.2rem;
+ }
+ 
+   
+ }
+
+
+
+
+@media screen and (max-width:580px) and (min-width:401px){
+   
+
+    .heading-text{
+        align-self: center;
+        font-size: 2rem;
+        font-family: sans-serif;
+        padding-bottom: 45px; 
+        font-weight: 600;
+     }
+
+     .image-text{
+         font-family: sans-serif;
+         font-size: 1.5rem;
+         padding-top: 60px;
+         font-weight: 530;
+     }
+
+}
+
+
+
+
+@media screen and (max-width:768px) and (min-width:581px){
+  
+    .heading-text{
+        align-self: center;
+        font-size: 3rem;
+        font-family: sans-serif;
+        padding-bottom: 65px; 
+        font-weight: 600;
+     }
+
+     .image-text{
+         font-family: sans-serif;
+         font-size: 2rem;
+         padding-top: 60px;
+         font-weight: 530;
+     }
+
+}
+
+@media  (max-width:400px) and (min-width:281px){
+    .heading-text {
+        padding-bottom: 40px;
+    }
+
+  
+  
+}
+
+@media screen and (min-width:769px){
+    .heading-text{
+        padding-bottom: 55px;
+        font-size: 3rem;
+    }
+
+ .hero-container{
+     width: 85%;
+ }
+
+    .image-text{
+        font-size: 2.5rem;
+    }
+}
+
+

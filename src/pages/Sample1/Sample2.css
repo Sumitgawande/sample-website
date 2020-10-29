@@ -1,0 +1,885 @@
+.graphical-image{
+    width: 300px;
+  position: absolute;   
+    height: 300px;
+  
+    border-radius: 171px;
+    background-color: rgb(241, 197, 14);
+    top: 50px;
+    left: 80px;
+}
+
+
+
+.hero-image-container{
+    width: 100%;
+    position: absolute;
+    /* z-index: -1; */
+
+}
+
+.hero-section{
+    height: 110vh;
+    /* background-color: blue; */
+    /* padding-top: 30px; */
+}
+
+.right-side-image{
+    width: 50%; 
+    height: 50%;
+    flex: 50%;
+}
+
+.left-side-image{
+    flex: 50%;  
+}
+
+.overlapping-content{
+    z-index: 2;
+    width: 50%;
+    margin-left: 10rem; 
+    position: relative;
+    top: 10rem;
+}
+
+
+
+.overlapping-content p{
+    width: 58%;
+    padding-bottom: 10px;
+    font-weight: 550;
+}
+
+.cards-section{
+    position: relative;
+    height: 130vh;
+}
+
+
+
+.cards-container{
+    flex: 50%;
+}
+
+.cards-sibling{
+    flex: 50%;
+}
+
+.cards-container > div{
+    width: 50%;
+}
+
+.right-side-cards{
+    padding-top: 10rem;
+}
+
+.card{
+    height: 20rem;
+    margin: 20px;
+    /* box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);  */
+    box-shadow: rgba(0, 0, 0, 0.2) 5px 5px 20px 0px;
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    background-color: white
+}
+
+.graphical-image-rectangle{
+    position: absolute;
+    width: 40rem;
+    z-index: -1;
+    background-color: rgb(241, 197, 14);
+    height: 20rem;
+        top: 25rem;
+}
+
+
+.info-container{
+    flex: 50%;
+}
+
+.info-image{
+    width: 50%;
+    flex: 50%;
+}
+
+.aboutUs-image{
+    flex: 50%;
+    width: 50%;
+}
+
+.aboutUs-text{
+    flex: 50%;  
+}
+
+
+.team-member{
+    width: 30%;
+    border-radius: 30rem;
+}
+
+.team-member-card{
+flex: 50%;  
+}
+
+.team-member-card ul{
+    list-style-type: none;    
+}
+
+
+.team-member-card ul li a{
+    color: black;
+    padding-right: 10px;
+}
+
+.team-info{
+
+    height: 100px;
+}
+
+.member-info-button{
+    height: 50%;
+    margin-top: 25px;
+}
+
+
+
+
+.info-section{
+    width: 85%;
+    height: 600px;
+    margin: auto;
+    position: relative;
+}
+
+.graphical-image-rectangle-lower{
+    position: absolute;
+    width: 30rem;
+    border-radius: 240px;
+    bottom: 13rem;
+    right: -5rem;
+    background-color: rgb(241, 197, 14);
+    height: 30rem;
+    z-index: -1;
+}
+
+
+.graphical-image-lower{
+    position: absolute;
+    width: 30rem;
+    width: 50%;
+    top: 18rem;
+    background-color: rgb(241, 197, 14);
+    height: 15rem;
+    z-index: -1;
+}
+
+
+.aboutUs-section{
+    position: relative;
+    height: 120vh;
+    width: 85%;
+    margin: auto;
+}
+
+.graphical-image-aboutUs-square{
+    position: absolute;
+    width: 30rem;
+    top: 13rem;
+    background-color: rgb(241, 197, 14);
+    height: 15rem;
+    right: 0;
+    z-index: -1;
+
+}
+
+.graphical-image-aboutUs{
+    position: absolute;
+    width: 12rem;
+    top: 32rem;
+    background-color: rgb(241, 197, 14);
+    height: 12rem;
+    left: -3rem;
+  
+    border-radius: 138px;
+}
+
+.aboutUs-text p{
+ font-weight: 550;
+ font-family: open-Sans,sans-serif;   
+}
+
+.team-member-section{
+    width: 85%;
+    position: relative;
+    margin: auto;
+}
+
+.graphical-image-recFull{
+    position: absolute;
+    top: 8rem;
+    width: 10rem;
+    height: 10rem;
+    z-index: -1;
+    background-color: rgb(241, 197, 14);
+    width: 100%;
+}
+
+
+.team-member{
+    margin-right: 20px;
+}
+
+.team-member-card p{
+    width: 50%;
+}
+
+.team-member-card{
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.team-heading{
+    padding: 15px;
+}
+
+.branding-section{
+    position: relative;
+}
+
+
+.branding-info-image{
+    
+    height: 50rem;
+    width: 100%;
+  
+  
+  }
+  
+  .branding-info-text{
+    position: absolute;
+    width: 35%;
+  border-radius: 5px;
+  height: 25rem;
+  bottom: 0;
+  left: 30px;
+  background-color: rgb(41, 45, 51);
+  
+  }
+  
+  .brand-heading{
+      font-size: 4rem;
+      font-weight: 500;
+      color:rgb(241, 197, 14);
+  }
+
+.brand-button{
+    width: 10rem;
+    height: 3rem;
+    color: black;
+    font-size:20px;
+    margin-top: 20px;
+    margin-left: 25px;
+    font-weight:600;
+    background-color:rgb(241, 197, 14); ;
+}
+
+.brand-text{
+    width: 90%;
+    margin: auto;
+    color: white;
+    font-size: 1.3rem;    
+}
+  
+.contactUs-section{
+    height: 60vh;   
+    margin-top: 5rem;  
+    background-color: rgb(41, 45, 51);
+}
+
+.contact-text{
+    color: rgb(241, 197, 14); 
+}
+
+.footer-elements{
+    width: 90%;
+    height: 15rem;
+    background-color:rgb(241, 197, 14);  
+    margin-top: 20rem;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.contact-heading{
+    padding: 10px;
+}
+
+
+.footer-elements i{
+      /* width: 30px; */
+    font-size: 3rem;
+    color: white;
+ padding: 30px;
+    background-color: rgb(241, 197, 14); ;
+    /* height: 40px; */
+
+}
+
+
+
+.button-secondary{
+    font-size: 1.5rem;
+    padding-top: 30px;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+        
+    
+}
+
+p{
+    line-height: 1.8;
+}
+
+h2,h3,h4{
+    line-height: 1.2;
+}
+
+
+.large-headings{
+/* font-family:'Roboto Slab', serif; */
+    font-size: 5rem;    
+}
+
+.medium-headings{
+    font-family: oswald,sans-serif;
+    font-size: 3.5rem;
+}
+
+p{
+    font-family:'Open Sans',sans-serif;
+}
+
+.mt-10{
+    margin-top:10px;
+}
+
+.mb-10{
+    margin-bottom:10px;
+}
+
+.ml50{
+    margin-left:50px;
+}
+
+.ml-10{
+margin-left:10px;
+}
+
+.item-left{
+    align-items: flex-start;
+}
+
+
+.text-center{
+    text-align:center;
+}
+
+.text-white{
+    color:white;
+}
+
+.flex{
+    display: flex;
+    /* display: -webkit-box; */
+    display: -webkit-flex;
+    display: -webkit-box; 
+    display:-webkit-flexbox;
+    display: -ms-flexbox;
+   flex-wrap: wrap;
+   /* flex: 0 0 auto */
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-left-team{
+    text-align: left;
+}
+
+.item-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-flex-end{
+    justify-content: flex-end;  
+}
+
+.column-flex{
+    flex-flow: column;
+}
+
+.pl-10{
+    padding-left: 10px;
+}
+
+
+.back-light-black{
+    background: #111111da;
+}
+
+
+.right-0-px{
+    right: 0;
+}
+
+
+.button-primary{
+    text-transform: uppercase;
+    /* letter-spacing: 2px; */
+    font-size: 20px;
+    margin-top: 20px;
+    color: white;
+     padding: 10px;
+    font-weight: 700;
+    background-color: black;
+    font-family:  Oswald, sans-serif;
+    text-decoration: none;
+    border: white 2px ridge;
+   
+    
+}
+
+
+@media (min-width:320px) and (max-width:400px){
+    .graphical-image{
+        display: none;
+    }
+
+ .left-side-image{
+    flex: 100%;
+ }
+
+  .overlapping-content{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 26rem;
+  }
+
+  .overlapping-content p{
+      width: 100%;
+  }
+
+  .hero-section{
+      height: 165vh;
+  }
+
+  .graphical-image-rectangle{
+      width: 15rem;
+  }
+
+  .cards-section {
+    position: relative;
+    height: 315vh;
+}
+
+  .cards-container > div {
+    width: 95%;
+    margin: auto;
+}
+
+.right-side-cards {
+    padding-top: 0rem;
+}
+
+.text-left{
+    text-align: center;
+}
+
+.medium-headings{
+    font-size: 3rem;
+}
+
+.cards-sibling p,h4{
+    text-align: center;
+}
+
+
+
+.graphical-image-rectangle-lower {
+    width: 9rem;
+    border-radius: 240px;
+    bottom: 28rem;
+    right: -2rem;
+    height: 9rem;
+}
+
+.graphical-image-lower {
+    width: 50%;
+    top: 18rem;
+    height: 6rem;
+}
+
+.info-section {
+    height: 120vh;
+}
+
+.aboutUs-text{
+    flex: 100%;
+}
+
+.graphical-image-aboutUs {
+    width: 10rem;
+    top: 38rem;
+    z-index: -1;
+    height: 10rem;
+    left: -1rem;
+    border-radius: 138px;
+}
+
+.team-member-card{
+    flex: 100%;
+}
+
+.team-member-card p{
+  width: 100%;
+}
+
+.branding-info-image{
+    height: 45rem;
+}
+
+.branding-info-text {
+    width: 75%;
+    height: 35rem;
+}
+
+
+
+.brand-button {
+    margin-top: 75px;
+    margin-left: 2px;
+}
+
+.contact-text {
+    font-size: 18px; 
+    width: 95%;
+    margin: auto;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+.contactUs-section{
+    height:115vh;
+    margin-top: 8rem;
+}
+
+.footer-elements{
+    height: 35rem;
+}
+
+}
+
+
+@media (min-width:401px) and (max-width:580px){
+    .graphical-image{
+        display: none;
+    }
+
+ .left-side-image{
+    flex: 100%;
+ }
+
+ 
+
+  .overlapping-content{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 26rem;
+  }
+
+  .overlapping-content p{
+      width: 100%;
+  }
+
+  .hero-section{
+      height: 125vh;
+  }
+
+  .graphical-image-rectangle{
+      width: 15rem;
+  }
+
+  .cards-section {
+    position: relative;
+    height: 338vh;
+}
+
+.cards-container{
+    flex: 100%;
+}
+
+  .cards-container > div {
+    width: 95%;
+    margin: auto;
+}
+
+.right-side-cards {
+    padding-top: 0rem;
+}
+
+.text-left{
+    text-align: center;
+}
+
+.medium-headings{
+    font-size: 3rem;
+}
+
+.cards-sibling p,h4{
+    text-align: center;
+}
+
+
+
+.graphical-image-rectangle-lower {
+    width: 9rem;
+    border-radius: 240px;
+    bottom: 28rem;
+    right: -2rem;
+    height: 9rem;
+}
+
+.graphical-image-lower {
+    width: 50%;
+    top: 18rem;
+    height: 6rem;
+}
+
+.info-section {
+    height: 125vh;
+}
+
+
+
+.aboutUs-text{
+    flex: 100%;
+}
+
+.graphical-image-aboutUs {
+    width: 10rem;
+    top: 38rem;
+    z-index: -1;
+    height: 10rem;
+    left: -1rem;
+    border-radius: 138px;
+}
+
+.team-heading{
+    margin-top: 40px;
+}
+
+.team-member-card{
+    flex: 100%;
+}
+
+.team-member-card p{
+  width: 100%;
+}
+
+.branding-info-image{
+    height: 45rem;
+}
+
+.branding-info-text {
+    width: 75%;
+    height: 35rem;
+}
+
+
+
+.brand-button {
+    margin-top: 10rem;
+    margin-left: 2px;
+}
+
+.contact-text {
+    font-size: 18px; 
+    width: 95%;
+    margin: auto;
+}
+
+p{
+    font-size: 1.4rem;
+}
+
+.contactUs-section{
+    height:115vh;
+    margin-top: 8rem;
+}
+
+.footer-elements{
+    height: 35rem;
+}
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    .graphical-image{
+        display: none;
+    }
+
+ .left-side-image{
+    flex: 100%;
+ }
+
+ 
+
+  .overlapping-content{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 55rem;
+  }
+
+  .overlapping-content p{
+      width: 100%;
+  }
+
+  .hero-section{
+      height: 125vh;
+  }
+
+  .graphical-image-rectangle{
+      width: 15rem;
+  }
+
+  .cards-section {
+    position: relative;
+    height: 230vh;
+}
+
+.cards-container{
+    flex: 100%;
+}
+
+  .cards-container > div {
+    width: 95%;
+    margin: auto;
+}
+
+.right-side-cards {
+    padding-top: 0rem;
+}
+
+.text-left{
+    text-align: center;
+}
+
+.medium-headings{
+    font-size: 3rem;
+}
+
+.cards-sibling p,h4{
+    text-align: center;
+}
+
+
+
+.graphical-image-rectangle-lower {
+    width: 9rem;
+    border-radius: 240px;
+    bottom: 28rem;
+    right: -2rem;
+    height: 9rem;
+}
+
+.graphical-image-lower {
+    width: 50%;
+    top: 18rem;
+    height: 6rem;
+}
+
+.info-section {
+    height: 125vh;
+}
+
+.info-container{
+    flex: 100%;
+}
+
+
+.aboutUs-text{
+    flex: 100%;
+}
+
+.graphical-image-aboutUs {
+    width: 10rem;
+    top: 38rem;
+    z-index: -1;
+    height: 10rem;
+    left: -1rem;
+    border-radius: 138px;
+}
+
+.team-heading{
+    margin-top: 40px;
+}
+
+.team-member-card{
+    flex: 100%;
+}
+
+.team-member-card p{
+  width: 100%;
+}
+
+.branding-info-image{
+    height: 45rem;
+}
+
+.branding-info-text {
+    width: 75%;
+    height: 35rem;
+}
+
+
+
+.brand-button {
+    margin-top: 10rem;
+    margin-left: 2px;
+}
+
+
+
+.contact-text {
+    font-size: 35px; 
+    width: 95%;
+    margin: auto;
+}
+
+p{
+    font-size: 2rem;
+}
+
+.contactUs-section{
+    height:115vh;
+    margin-top: 8rem;
+}
+
+.footer-elements{
+    height: 35rem;
+}   
+}
