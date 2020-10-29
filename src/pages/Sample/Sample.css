@@ -1062,7 +1062,7 @@ p{
 }
 }
 
-@media (min-width:601px) and (max-width:768px){
+@media (min-width:601px) and (max-width:767px){
     .graphical-image{
         display: none;
     }
@@ -1214,7 +1214,7 @@ p{
 }
 }
 
-@media (min-width:769px) and (max-width:900px){
+@media (min-width:768px) and (max-width:900px){
     .graphical-image{
         display: none;
     }
