@@ -79,7 +79,7 @@ const Sample = (props) => {
                 <div className="info-container">
                     <h2 className="medium-headings text-left">Web Development & Design</h2>
                     <p className="text-center text-left">Quickly incentivize impactful action items before tactical collaboration and idea-sharing. Monotonically engage market-driven intellectual capital  wireless opportunities. Progressively network performance based services for functionalized testing procedures.</p>
-                    <a className="button-secondary" href="#">LEARN MORE</a>
+                    <Link className="button-secondary" to="/">LEARN MORE</Link>
                 </div>
 
                 <img className="info-image" src={'/images/prof-sample2.jpg'} alt='information' />
