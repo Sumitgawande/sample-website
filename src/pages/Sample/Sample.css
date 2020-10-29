@@ -19,7 +19,7 @@
 }
 
 .hero-section{
-    height: 110vh;
+    height: 100vh;
     /* background-color: blue; */
     /* padding-top: 30px; */
 }
@@ -52,7 +52,7 @@
 
 .cards-section{
     position: relative;
-    height: 130vh;
+    height: 120vh;
 }
 
 
@@ -62,6 +62,7 @@
 }
 
 .cards-sibling{
+    position: relative;
     flex: 50%;
 }
 
@@ -95,6 +96,12 @@
 
 .info-container{
     flex: 50%;
+}
+
+.aboutUs-section{
+    /* height: 30vh; */
+    position: absolute;
+    margin-top: 1rem;
 }
 
 .info-image{
@@ -176,7 +183,7 @@ flex: 50%;
 
 .aboutUs-section{
     position: relative;
-    height: 120vh;
+    height: 95vh;
     width: 85%;
     margin: auto;
 }
@@ -395,13 +402,11 @@ margin-left:10px;
 
 .flex{
     display: flex;
-    /* display: -webkit-box; */
     display: -webkit-flex;
     display: -webkit-box; 
     display:-webkit-flexbox;
     display: -ms-flexbox;
    flex-wrap: wrap;
-   /* flex: 0 0 auto */
 }
 
 .text-left{
@@ -459,8 +464,157 @@ margin-left:10px;
     
 }
 
+@media (min-width:240px) and (max-width:320px){
+    .graphical-image{
+        display: none;
+    }
 
-@media (min-width:320px) and (max-width:400px){
+ .left-side-image{
+    flex: 100%;
+ }
+
+  .overlapping-content{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 20rem;
+  }
+
+  .overlapping-content p{
+      width: 100%;
+  }
+
+  .hero-section{
+      height: 140vh;
+  }
+
+  .graphical-image-rectangle{
+      width: 15rem;
+  }
+
+  .cards-section {
+    position: relative;
+    height: 350vh;
+}
+
+  .cards-container{
+      flex: 100%;
+  }
+
+  .cards-container > div {
+    width: 95%;
+    margin: auto;
+}
+
+.right-side-cards {
+    padding-top: 0rem;
+}
+
+.aboutUs-section{
+    height: 145vh;
+}
+
+.text-left{
+    text-align: center;
+}
+
+.medium-headings{
+    font-size: 2rem;
+}
+
+.cards-sibling p,h4{
+    text-align: center;
+}
+
+
+.large-headings{
+    font-size: 3rem;
+}
+
+
+.graphical-image-rectangle-lower {
+    width: 9rem;
+    border-radius: 240px;
+    bottom: 28rem;
+    right: -2rem;
+    height: 9rem;
+}
+
+.graphical-image-lower {
+    width: 50%;
+    top: 18rem;
+    height: 6rem;
+}
+
+.info-section {
+    height: 145vh;
+}
+
+.aboutUs-text{
+    flex: 100%;
+}
+
+.graphical-image-aboutUs {
+    width: 10rem;
+    top: 38rem;
+    z-index: -1;
+    height: 10rem;
+    left: -1rem;
+    border-radius: 138px;
+}
+
+.team-member-card{
+    flex: 100%;
+}
+
+.team-member-card p{
+  width: 100%;
+}
+
+.branding-info-image{
+    height: 45rem;
+}
+
+.branding-info-text {
+    width: 75%;
+    height: 40rem;
+}
+
+.button-primary{
+    margin-left: 10px;
+}
+
+.brand-heading{
+    font-size: 2rem;
+}
+
+
+.brand-button {
+    margin-top: 35px;
+    margin-left: 2px;
+}
+
+.contact-text {
+    font-size: 18px; 
+    width: 95%;
+    margin: auto;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+.contactUs-section{
+    height:115vh;
+    margin-top: 8rem;
+}
+
+.footer-elements{
+    height: 35rem;
+}
+}
+
+@media (min-width:321px) and (max-width:400px){
     .graphical-image{
         display: none;
     }
@@ -481,7 +635,7 @@ margin-left:10px;
   }
 
   .hero-section{
-      height: 165vh;
+      height: 105vh;
   }
 
   .graphical-image-rectangle{
@@ -490,16 +644,188 @@ margin-left:10px;
 
   .cards-section {
     position: relative;
-    height: 315vh;
-}
+    height: 125rem;
+    margin-top: 15rem;
+  }
+
+  .cards-container{
+      flex: 100%;
+  }
 
   .cards-container > div {
     width: 95%;
     margin: auto;
 }
 
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.cards-sibling {
+    top: 1rem;
+}
+
 .right-side-cards {
     padding-top: 0rem;
+}
+
+.aboutUs-section{
+    height: 110vh;
+}
+
+.text-left{
+    text-align: center;
+}
+
+.medium-headings{
+    font-size: 3rem;
+}
+
+.cards-sibling p,h4{
+    text-align: center;
+}
+
+
+
+.graphical-image-rectangle-lower {
+    width: 9rem;
+    border-radius: 240px;
+    bottom: 28rem;
+    right: -2rem;
+    height: 9rem;
+}
+
+.graphical-image-lower {
+    width: 50%;
+    top: 18rem;
+    height: 6rem;
+}
+
+.info-section {
+    height: 144vh;
+}
+
+.aboutUs-section{
+    height: 131vh;
+}
+
+.aboutUs-text{
+    flex: 100%;
+}
+
+.graphical-image-aboutUs {
+    width: 10rem;
+    top: 38rem;
+    z-index: -1;
+    height: 10rem;
+    left: -1rem;
+    border-radius: 138px;
+}
+
+.team-member-card{
+    flex: 100%;
+}
+
+.team-member-card p{
+  width: 100%;
+}
+
+.branding-info-image{
+    height: 45rem;
+}
+
+.branding-info-text {
+    width: 75%;
+    height: 35rem;
+}
+
+
+
+.brand-button {
+    margin-top: 75px;
+    margin-left: 2px;
+}
+
+.contact-text {
+    font-size: 18px; 
+    width: 95%;
+    margin: auto;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+.contactUs-section{
+    height:115vh;
+    margin-top: 8rem;
+}
+
+.footer-elements{
+    height: 35rem;
+}
+
+}
+
+@media (min-width:401px) and (max-width:480px){
+    .graphical-image{
+        display: none;
+    }
+
+ .left-side-image{
+    flex: 100%;
+ }
+
+  .overlapping-content{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 30rem;
+  }
+
+  .overlapping-content p{
+      width: 100%;
+  }
+
+  .hero-section{
+      height: 100vh;
+  }
+
+  .graphical-image-rectangle{
+      width: 15rem;
+  }
+
+  .cards-section {
+    position: relative;
+    height: 125rem;
+    margin-top: 15rem;
+  }
+
+  .cards-container{
+      flex: 100%;
+  }
+
+  .cards-container > div {
+    width: 95%;
+    margin: auto;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.cards-sibling {
+    top: 1rem;
+}
+
+.right-side-cards {
+    padding-top: 0rem;
+}
+
+.aboutUs-section{
+    height: 110vh;
 }
 
 .text-left{
@@ -587,13 +913,12 @@ p{
 }
 
 .footer-elements{
-    height: 35rem;
+    height: 27rem;
 }
 
 }
 
-
-@media (min-width:401px) and (max-width:580px){
+@media (min-width:481px) and (max-width:600px){
     .graphical-image{
         display: none;
     }
@@ -608,7 +933,7 @@ p{
     width: 80%;
     margin: auto;
     position: relative;
-    top: 26rem;
+    top: 40rem;
   }
 
   .overlapping-content p{
@@ -616,7 +941,7 @@ p{
   }
 
   .hero-section{
-      height: 125vh;
+      height: 90vh;
   }
 
   .graphical-image-rectangle{
@@ -625,7 +950,8 @@ p{
 
   .cards-section {
     position: relative;
-    height: 338vh;
+    height: 186vh;
+    margin-top: 14rem;
 }
 
 .cards-container{
@@ -670,7 +996,7 @@ p{
 }
 
 .info-section {
-    height: 125vh;
+    height: 110vh;
 }
 
 
@@ -706,13 +1032,13 @@ p{
 
 .branding-info-text {
     width: 75%;
-    height: 35rem;
+    height: 23rem;
 }
 
 
 
 .brand-button {
-    margin-top: 10rem;
+    margin-top: 5rem;
     margin-left: 2px;
 }
 
@@ -727,7 +1053,7 @@ p{
 }
 
 .contactUs-section{
-    height:115vh;
+    height:85vh;
     margin-top: 8rem;
 }
 
@@ -736,7 +1062,7 @@ p{
 }
 }
 
-@media (min-width:768px) and (max-width:1024px){
+@media (min-width:601px) and (max-width:768px){
     .graphical-image{
         display: none;
     }
@@ -751,7 +1077,7 @@ p{
     width: 80%;
     margin: auto;
     position: relative;
-    top: 55rem;
+    top: 45rem;
   }
 
   .overlapping-content p{
@@ -759,7 +1085,7 @@ p{
   }
 
   .hero-section{
-      height: 125vh;
+      height: 190vh
   }
 
   .graphical-image-rectangle{
@@ -768,10 +1094,15 @@ p{
 
   .cards-section {
     position: relative;
-    height: 230vh;
+    height: 510vh;
+    margin-top: 25rem;
 }
 
 .cards-container{
+    flex: 100%;
+}
+
+.info-container{
     flex: 100%;
 }
 
@@ -779,6 +1110,10 @@ p{
     width: 95%;
     margin: auto;
 }
+
+ .aboutUs-section{
+     height: 231vh;
+ }
 
 .right-side-cards {
     padding-top: 0rem;
@@ -813,7 +1148,476 @@ p{
 }
 
 .info-section {
-    height: 125vh;
+    height: 95vh;
+}
+
+
+
+.aboutUs-text{
+    flex: 100%;
+}
+
+.graphical-image-aboutUs {
+    width: 10rem;
+    top: 38rem;
+    z-index: -1;
+    height: 10rem;
+    left: -1rem;
+    border-radius: 138px;
+}
+
+.team-heading{
+    margin-top: 40px;
+}
+
+.team-member-card{
+    flex: 100%;
+}
+
+.team-member-card p{
+  width: 100%;
+}
+
+.branding-info-image{
+    height: 45rem;
+}
+
+.branding-info-text {
+    width: 75%;
+    height: 18rem;
+}
+
+
+
+.brand-button {
+    margin-top: 5rem;
+    margin-left: 2px;
+}
+
+.contact-text {
+    font-size: 18px; 
+    width: 95%;
+    margin: auto;
+}
+
+p{
+    font-size: 1.4rem;
+}
+
+.contactUs-section{
+    height:175vh;
+    margin-top: 8rem;
+}
+
+.footer-elements{
+    height: 35rem;
+}
+}
+
+@media (min-width:769px) and (max-width:900px){
+    .graphical-image{
+        display: none;
+    }
+
+ .left-side-image{
+    flex: 100%;
+ }
+
+ .button-primary{
+     margin-left: 35px;
+ }
+
+
+  .overlapping-content{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 57rem;
+  }
+
+  .overlapping-content p{
+      width: 100%;
+  }
+
+  .hero-section{
+      height: 115vh;
+  }
+
+  .graphical-image-rectangle{
+      width: 15rem;
+  }
+
+  .cards-section {
+    position: relative;
+    height: 165vh;
+}
+
+.cards-sibling h4{
+    font-size: 2rem;
+}
+
+.cards-container{
+    flex: 100%;
+}
+
+
+  .cards-container > div {
+    width: 95%;
+    margin: auto;
+}
+
+.right-side-cards {
+    padding-top: 0rem;
+}
+
+.text-left{
+    text-align: center;
+}
+
+
+
+.medium-headings{
+    font-size: 3rem;
+}
+
+.cards-sibling p,h4{
+    text-align: center;
+}
+
+
+
+.graphical-image-rectangle-lower {
+    width: 9rem;
+    border-radius: 240px;
+    bottom: 28rem;
+    right: -2rem;
+    height: 9rem;
+}
+
+.graphical-image-lower {
+    width: 50%;
+    top: 18rem;
+    height: 6rem;
+}
+
+.info-section {
+    height: 90vh;
+}
+
+.info-container{
+    flex: 100%;
+}
+
+
+.aboutUs-text{
+    flex: 100%;
+}
+
+.graphical-image-aboutUs {
+    width: 10rem;
+    top: 38rem;
+    z-index: -1;
+    height: 10rem;
+    left: -1rem;
+    border-radius: 138px;
+}
+
+.team-heading{
+    margin-top: 40px;
+}
+
+.team-member-card{
+    flex: 100%;
+}
+
+.team-member-card p{
+  width: 100%;
+}
+
+.branding-info-image{
+    height: 45rem;
+}
+
+.branding-info-text {
+    width: 75%;
+    height: 22rem;
+}
+
+
+
+.brand-button {
+    margin-top: 7rem;
+    margin-left: 2px;
+}
+
+
+
+.contact-text {
+    font-size: 35px; 
+    width: 95%;
+    margin: auto;
+}
+
+p{
+    font-size: 2rem;
+}
+
+.contactUs-section{
+    height:65vh;
+    margin-top: 8rem;
+}
+
+.footer-elements{
+    height: 35rem;
+}   
+}
+
+@media (min-width:901px) and (max-width:1024px){
+    .graphical-image{
+        display: none;
+    }
+
+ .left-side-image{
+    flex: 100%;
+ }
+
+ .button-primary{
+     margin-left: 35px;
+ }
+
+
+  .overlapping-content{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 70rem;
+  }
+
+  .overlapping-content p{
+      width: 100%;
+  }
+
+  .hero-section{
+      height: 120vh;
+  }
+
+  .graphical-image-rectangle{
+      width: 15rem;
+  }
+
+  .cards-section {
+    position: relative;
+    height: 150vh;
+}
+
+.cards-sibling h4{
+    font-size: 2rem;
+}
+
+.cards-container{
+    flex: 100%;
+}
+
+
+  .cards-container > div {
+    width: 95%;
+    margin: auto;
+}
+
+.right-side-cards {
+    padding-top: 0rem;
+}
+
+.text-left{
+    text-align: center;
+}
+
+
+
+.medium-headings{
+    font-size: 3rem;
+}
+
+.cards-sibling p,h4{
+    text-align: center;
+}
+
+
+
+.graphical-image-rectangle-lower {
+    width: 9rem;
+    border-radius: 240px;
+    bottom: 28rem;
+    right: -2rem;
+    height: 9rem;
+}
+
+.graphical-image-lower {
+    width: 50%;
+    top: 18rem;
+    height: 6rem;
+}
+
+.info-section {
+    height: 90vh;
+}
+
+.info-container{
+    flex: 100%;
+}
+
+
+.aboutUs-text{
+    flex: 100%;
+}
+
+.graphical-image-aboutUs {
+    width: 10rem;
+    top: 38rem;
+    z-index: -1;
+    height: 10rem;
+    left: -1rem;
+    border-radius: 138px;
+}
+
+.team-heading{
+    margin-top: 40px;
+}
+
+.team-member-card{
+    flex: 100%;
+}
+
+.team-member-card p{
+  width: 100%;
+}
+
+.branding-info-image{
+    height: 45rem;
+}
+
+.branding-info-text {
+    width: 75%;
+    height: 17rem;
+}
+
+
+
+.brand-button {
+    margin-top: 5rem;
+    margin-left: 2px;
+}
+
+
+
+.contact-text {
+    font-size: 35px; 
+    width: 95%;
+    margin: auto;
+}
+
+p{
+    font-size: 2.3rem;
+}
+
+.contactUs-section{
+    height:65vh;
+    margin-top: 8rem;
+}
+
+.footer-elements{
+    height: 35rem;
+}   
+}
+
+@media (min-width:1025px) and (max-width:1200px){
+    .graphical-image{
+        display: none;
+    }
+
+ .left-side-image{
+    flex: 100%;
+ }
+
+ .button-primary{
+     margin-left: 35px;
+ }
+
+
+  .overlapping-content{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 70rem;
+  }
+
+  .overlapping-content p{
+      width: 100%;
+  }
+
+  .hero-section{
+      height: 115vh;
+  }
+
+  .graphical-image-rectangle{
+      width: 15rem;
+  }
+
+  .cards-section {
+    position: relative;
+    height: 150vh;
+}
+
+.cards-sibling h4{
+    font-size: 2rem;
+}
+
+.cards-container{
+    flex: 100%;
+}
+
+
+  .cards-container > div {
+    width: 95%;
+    margin: auto;
+}
+
+.right-side-cards {
+    padding-top: 0rem;
+}
+
+.text-left{
+    text-align: center;
+}
+
+
+
+.medium-headings{
+    font-size: 3rem;
+}
+
+.cards-sibling p,h4{
+    text-align: center;
+}
+
+
+
+.graphical-image-rectangle-lower {
+    width: 9rem;
+    border-radius: 240px;
+    bottom: 28rem;
+    right: -2rem;
+    height: 9rem;
+}
+
+.graphical-image-lower {
+    width: 50%;
+    top: 18rem;
+    height: 6rem;
+}
+
+.info-section {
+    height: 90vh;
 }
 
 .info-container{
@@ -875,7 +1679,7 @@ p{
 }
 
 .contactUs-section{
-    height:115vh;
+    height:65vh;
     margin-top: 8rem;
 }
 
@@ -883,3 +1687,4 @@ p{
     height: 35rem;
 }   
 }
+

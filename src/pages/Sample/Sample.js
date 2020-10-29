@@ -1,14 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import './Sample2.css'
+import './Sample.css'
 import '../../App.css'
 import Navbar from '../../components/Navbar/Navbar'
 /**
 * @author
-* @function Sample2
+* @function Sample
 **/
 
-const Sample2 = (props) => {
+const Sample = (props) => {
     return (
         <div className="sample2">
             <Navbar />
@@ -18,7 +18,7 @@ const Sample2 = (props) => {
                         <div className="left-side-image">
                             <p className="graphical-image"></p>
                         </div>
-                        <img className="right-side-image" src={'/images/amy-shamblen-Wm3EU84mWeg-unsplash.jpg'} />
+                        <img className="right-side-image" src={'/images/amy-shamblen-Wm3EU84mWeg-unsplash.jpg'} alt='front-page' />
                     </div>
                     <div className='overlapping-content'>
                         <h2 className="text-left large-headings">Design Studio</h2>
@@ -67,7 +67,7 @@ const Sample2 = (props) => {
              </p>
                     <input type='submit' className="button-primary" value='READ MORE' />
                 </div>
-            </section>
+            </section>  
 
             <section className="info-section flex justify-center item-center">
                 <div >
@@ -82,7 +82,7 @@ const Sample2 = (props) => {
                     <a className="button-secondary" href="#">LEARN MORE</a>
                 </div>
 
-                <img className="info-image" src={'/images/prof-sample2.jpg'} />
+                <img className="info-image" src={'/images/prof-sample2.jpg'} alt='information' />
 
 
             </section>
@@ -94,7 +94,7 @@ const Sample2 = (props) => {
                 <div >
                     <p className="graphical-image-aboutUs-square"></p>
                 </div>
-                <img className="aboutUs-image" src={'/images/daniel-korpai-mxPiMiz7KCo-unsplash.jpg'} />
+                <img className="aboutUs-image" src={'/images/daniel-korpai-mxPiMiz7KCo-unsplash.jpg'} alt='aboutUs' />
                 <div className="aboutUs-text pl-10">
                     <p>Quickly incentivize impactful action items before tactical collaboration and idea-sharing. Monotonically engage market-driven intellectual capital  wireless opportunities. Progressively network performance based services for functionalized testing procedures.</p>
                     <input type='submit' className="button-primary" value='READ MORE' />
@@ -106,22 +106,22 @@ const Sample2 = (props) => {
                     <p className="graphical-image-recFull"></p>
                 </div>
                 <div className="team-member-card flex">
-                    <img className="team-member" src={'/images/4.jpg'} />
+                    <img className="team-member" src={'/images/4.jpg'} alt='team-member' />
                     <div className="item-center">
                         <h2 className="text-left-team">Name of member</h2>
                         <p className="text-left-team">Job profile</p>
                         <p className="text-left-team"> This is the sample text where a little description of his/her job</p>
 
                         <ul className="flex item-left">
-                            <li><Link><i className='fa fa-facebook'></i></Link></li>
-                            <li><Link><i className='fa fa-twitter'></i></Link></li>
-                            <li><Link><i className='fa fa-instagram'></i></Link></li>
-                            <li><Link><i className='fa fa-linkedin'></i></Link></li>
+                            <li><Link to='/'><i className='fa fa-facebook'></i></Link></li>
+                            <li><Link to='/'><i className='fa fa-twitter'></i></Link></li>
+                            <li><Link to='/'><i className='fa fa-instagram'></i></Link></li>
+                            <li><Link to='/'><i className='fa fa-linkedin'></i></Link></li>
                         </ul>
                     </div>
                 </div>
                 <div className="team-member-card flex">
-                    <img className="team-member" src={'/images/5.jpg'} />
+                    <img className="team-member" src={'/images/5.jpg'} alt='team-member' />
                     <div className="item-center">
                         <h2 className="text-left-team">Name of member</h2>
                         <p className="text-left-team">Job profile</p>
@@ -129,40 +129,40 @@ const Sample2 = (props) => {
 
 
                         <ul className="flex item-left">
-                            <li><Link><i className='fa fa-facebook'></i></Link></li>
-                            <li><Link><i className='fa fa-twitter'></i></Link></li>
-                            <li><Link><i className='fa fa-instagram'></i></Link></li>
-                            <li><Link><i className='fa fa-linkedin'></i></Link></li>
+                            <li><Link to='/'><i className='fa fa-facebook'></i></Link></li>
+                            <li><Link to='/'><i className='fa fa-twitter'></i></Link></li>
+                            <li><Link to='/'><i className='fa fa-instagram'></i></Link></li>
+                            <li><Link to='/'><i className='fa fa-linkedin'></i></Link></li>
                         </ul>
                     </div>
                 </div>
                 <div className="team-member-card flex">
-                    <img className="team-member" src={'/images/7.jpg'} />
+                    <img className="team-member" src={'/images/7.jpg'} alt='team-member' />
                     <div className="item-center">
                         <h2 className="text-left-team">Name of member</h2>
                         <p className="text-left-team">Job profile</p>
                         <p className="text-left-team"> This is the sample text where a little description of his/her job</p>
 
                         <ul className="flex item-left">
-                            <li><Link><i className='fa fa-facebook'></i></Link></li>
-                            <li><Link><i className='fa fa-twitter'></i></Link></li>
-                            <li><Link><i className='fa fa-instagram'></i></Link></li>
-                            <li><Link><i className='fa fa-linkedin'></i></Link></li>
+                            <li><Link to='/'><i className='fa fa-facebook'></i></Link></li>
+                            <li><Link to='/'><i className='fa fa-twitter'></i></Link></li>
+                            <li><Link to='/'><i className='fa fa-instagram'></i></Link></li>
+                            <li><Link to='/'><i className='fa fa-linkedin'></i></Link></li>
                         </ul>
                     </div>
                 </div>
                 <div className="team-member-card flex">
-                    <img className="team-member" src={'/images/7.jpg'} />
+                    <img className="team-member" src={'/images/7.jpg'} alt='team-member' />
                     <div className="item-center">
                         <h2 className="text-left-team">Name of member</h2>
                         <p className="text-left-team">Job profile</p>
                         <p className="text-left-team"> This is the sample text where a little description of his/her job</p>
 
                         <ul className="flex item-left">
-                            <li><Link><i className='fa fa-facebook'></i></Link></li>
-                            <li><Link><i className='fa fa-twitter'></i></Link></li>
-                            <li><Link><i className='fa fa-instagram'></i></Link></li>
-                            <li><Link><i className='fa fa-linkedin'></i></Link></li>
+                            <li><Link to='/'><i className='fa fa-facebook'></i></Link></li>
+                            <li><Link to='/'><i className='fa fa-twitter'></i></Link></li>
+                            <li><Link to='/'><i className='fa fa-instagram'></i></Link></li>
+                            <li><Link ><i className='fa fa-linkedin'></i></Link></li>
                         </ul>
                     </div>
                 </div>
@@ -174,7 +174,7 @@ const Sample2 = (props) => {
 
 
             <section className="flex branding-section">
-                <img className="branding-info-image" src={'/images/xps-7ZWVnVSaafY-unsplash.jpg'} />
+                <img className="branding-info-image" src={'/images/xps-7ZWVnVSaafY-unsplash.jpg'} alt='brand' />
                 <div className="branding-info-text">
                     <h2 className="brand-heading">Branding</h2>
                     <p className="brand-text">Quickly incentivize impactful action items before tactical collaboration and idea-sharing. Monotonically engage market-driven intellectual capital  wireless opportunities. Progressively network performance based services for functionalized testing procedures.</p>
@@ -189,24 +189,24 @@ const Sample2 = (props) => {
            </p>
 
                 <div className="flex footer-elements">
-                    <address className='address flex column-flex justify-center item-center'>
+                    <div className='address flex column-flex justify-center item-center'>
                         <i className="fa fa-envelope-open"></i>
                         <h2>Address</h2>
                         <p>121 Rock Sreet, 21 Avenue,</p>
                         <p>New York, NY 92103-9000</p>
-                    </address>
-                    <mail className="mail flex column-flex justify-center item-center">
+                    </div>
+                    <div className="mail flex column-flex justify-center item-center">
                         <i className="fa fa-map-marker"></i>
                         <h2>Email:</h2>
                         <p>hello@company.com</p>
                         <p>support@company.com</p>
-                    </mail>
-                    <phone className="phone flex column-flex justify-center item-center">
+                    </div>
+                    <div className="phone flex column-flex justify-center item-center">
                         <i className="fa fa-phone"></i>
                         <h2>Call Us:</h2>
                         <p>1 (234) 567-891</p>
                         <p>1 (234) 567-891</p>
-                    </phone>
+                    </div>
                 </div>
 
             </section>
@@ -219,4 +219,4 @@ const Sample2 = (props) => {
 
 }
 
-export default Sample2
+export default Sample
