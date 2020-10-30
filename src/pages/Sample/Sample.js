@@ -12,22 +12,26 @@ const Sample = (props) => {
     return (
         <div className="sample2">
             <Navbar />
-            <section className="hero-section">
-                <div>
-                    <div className="hero-image-container flex">
+            
+            <div className="hero-section">
+                <div className='image-text'>
+                <div className="hero-image-container flex">
                         <div className="left-side-image">
                             <p className="graphical-image"></p>
                         </div>
                         <img className="right-side-image" src={'/images/amy-shamblen-Wm3EU84mWeg-unsplash.jpg'} alt='front-page' />
                     </div>
                     <div className='overlapping-content'>
-                        <h2 className="text-left large-headings">Design Studio</h2>
+                        <h2 className="text-left large-headings">Small Intro</h2>
                         <p className="text-left">This is the sample text where a little description of your services will be mentioned.This is the sample text where a little description of your services will be mentioned.</p>
                         <input type='submit' value='READ MORE' className='button-primary' />
                     </div>
                 </div>
-            </section>
-            <section className="cards-section flex justify-center item-center">
+                  
+                
+            </div>
+            
+            <div className="flex justify-center item-center cards-section">
                 <div>
                     <p className="graphical-image-rectangle"></p>
                 </div>
@@ -62,30 +66,29 @@ const Sample = (props) => {
                 <div className="cards-sibling">
                     <h4>ABOUT</h4>
                     <h2 className="medium-headings text-left">Need Amazing Design?</h2>
-                    <p>
+                    <p className='card-text'>
                         This is the sample text where a little description of your services will be mentioned.This is the sample text where a little description of your services will be mentioned.This is the sample text where a little description of your services will be mentioned.This is the sample text where a little description of your services will be mentioned.This is the sample text where a little description of your services will be mentioned.
              </p>
                     <input type='submit' className="button-primary" value='READ MORE' />
                 </div>
-            </section>  
+            </div>  
 
-            <section className="info-section flex justify-center item-center">
+            <div className="info-section flex justify-center item-center">
                 <div >
                     <p className="graphical-image-rectangle-lower"></p>
                 </div>
                 <div >
                     <p className="graphical-image-lower"></p>
                 </div>
-                <div className="info-container">
+                <img className="info-image" src={'/images/prof-sample2.jpg'} alt='information' />
+                <div className="info-container pl-10">
                     <h2 className="medium-headings text-left">Web Development & Design</h2>
                     <p className="text-center text-left">Quickly incentivize impactful action items before tactical collaboration and idea-sharing. Monotonically engage market-driven intellectual capital  wireless opportunities. Progressively network performance based services for functionalized testing procedures.</p>
                     <Link className="button-secondary" to="/">LEARN MORE</Link>
                 </div>
+            
 
-                <img className="info-image" src={'/images/prof-sample2.jpg'} alt='information' />
-
-
-            </section>
+            </div>
 
             <section className="flex aboutUs-section justify-center item-center">
                 <div >
@@ -175,7 +178,7 @@ const Sample = (props) => {
 
             <section className="flex branding-section">
                 <img className="branding-info-image" src={'/images/xps-7ZWVnVSaafY-unsplash.jpg'} alt='brand' />
-                <div className="branding-info-text">
+                <div className="branding-info-text">    
                     <h2 className="brand-heading">Branding</h2>
                     <p className="brand-text">Quickly incentivize impactful action items before tactical collaboration and idea-sharing. Monotonically engage market-driven intellectual capital  wireless opportunities. Progressively network performance based services for functionalized testing procedures.</p>
                     <input type='submit' className="brand-button" value='READ MORE' />

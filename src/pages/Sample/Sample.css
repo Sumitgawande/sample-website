@@ -1,8 +1,9 @@
+
+
+
 .graphical-image{
     width: 300px;
-  position: absolute;   
     height: 300px;
-  
     border-radius: 171px;
     background-color: rgb(241, 197, 14);
     top: 50px;
@@ -10,19 +11,12 @@
 }
 
 
-
 .hero-image-container{
     width: 100%;
-    position: absolute;
-    /* z-index: -1; */
-
+    position: relative;
+    z-index: -1;
 }
 
-.hero-section{
-    height: 100vh;
-    /* background-color: blue; */
-    /* padding-top: 30px; */
-}
 
 .right-side-image{
     width: 50%; 
@@ -35,11 +29,12 @@
 }
 
 .overlapping-content{
-    z-index: 2;
+    z-index: 1;
     width: 50%;
-    margin-left: 10rem; 
-    position: relative;
+   left: 10rem;
     top: 10rem;
+    position: absolute;
+    z-index: 1;
 }
 
 
@@ -50,19 +45,12 @@
     font-weight: 550;
 }
 
-.cards-section{
-    position: relative;
-    height: 120vh;
-}
-
-
 
 .cards-container{
     flex: 50%;
 }
 
 .cards-sibling{
-    position: relative;
     flex: 50%;
 }
 
@@ -74,10 +62,13 @@
     padding-top: 10rem;
 }
 
+.cards-section{
+    position: relative;
+}
+
 .card{
     height: 20rem;
     margin: 20px;
-    /* box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);  */
     box-shadow: rgba(0, 0, 0, 0.2) 5px 5px 20px 0px;
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
@@ -90,18 +81,12 @@
     z-index: -1;
     background-color: rgb(241, 197, 14);
     height: 20rem;
-        top: 25rem;
+    top: 25rem;
 }
 
 
 .info-container{
     flex: 50%;
-}
-
-.aboutUs-section{
-    /* height: 30vh; */
-    position: absolute;
-    margin-top: 1rem;
 }
 
 .info-image{
@@ -111,7 +96,7 @@
 
 .aboutUs-image{
     flex: 50%;
-    width: 50%;
+    width: 45%;
 }
 
 .aboutUs-text{
@@ -139,7 +124,6 @@ flex: 50%;
 }
 
 .team-info{
-
     height: 100px;
 }
 
@@ -148,17 +132,13 @@ flex: 50%;
     margin-top: 25px;
 }
 
-
-
-
 .info-section{
     width: 85%;
-    height: 600px;
     margin: auto;
     position: relative;
 }
 
-.graphical-image-rectangle-lower{
+.graphical-image-lower{
     position: absolute;
     width: 30rem;
     border-radius: 240px;
@@ -170,7 +150,7 @@ flex: 50%;
 }
 
 
-.graphical-image-lower{
+.graphical-image-rectangle-lower{
     position: absolute;
     width: 30rem;
     width: 50%;
@@ -182,10 +162,10 @@ flex: 50%;
 
 
 .aboutUs-section{
-    position: relative;
-    height: 95vh;
     width: 85%;
-    margin: auto;
+    margin: auto; 
+    margin-top: 1rem;
+    position: relative;
 }
 
 .graphical-image-aboutUs-square{
@@ -196,7 +176,6 @@ flex: 50%;
     height: 15rem;
     right: 0;
     z-index: -1;
-
 }
 
 .graphical-image-aboutUs{
@@ -206,7 +185,7 @@ flex: 50%;
     background-color: rgb(241, 197, 14);
     height: 12rem;
     left: -3rem;
-  
+    z-index: -1;
     border-radius: 138px;
 }
 
@@ -255,22 +234,18 @@ flex: 50%;
 
 
 .branding-info-image{
-    
     height: 50rem;
     width: 100%;
-  
-  
   }
   
-  .branding-info-text{
-    position: absolute;
-    width: 35%;
+.branding-info-text{
+  position: absolute;
+  width: 35%;
   border-radius: 5px;
   height: 25rem;
   bottom: 0;
   left: 30px;
   background-color: rgb(41, 45, 51);
-  
   }
   
   .brand-heading{
@@ -298,7 +273,6 @@ flex: 50%;
 }
   
 .contactUs-section{
-    height: 60vh;   
     margin-top: 5rem;  
     background-color: rgb(41, 45, 51);
 }
@@ -322,13 +296,10 @@ flex: 50%;
 
 
 .footer-elements i{
-      /* width: 30px; */
     font-size: 3rem;
     color: white;
- padding: 30px;
+    padding: 30px;
     background-color: rgb(241, 197, 14); ;
-    /* height: 40px; */
-
 }
 
 
@@ -344,8 +315,6 @@ flex: 50%;
     margin: 0;
     padding:0;
     box-sizing: border-box;
-        
-    
 }
 
 p{
@@ -358,7 +327,7 @@ h2,h3,h4{
 
 
 .large-headings{
-/* font-family:'Roboto Slab', serif; */
+    font-family:'Roboto Slab', serif;
     font-size: 5rem;    
 }
 
@@ -384,7 +353,7 @@ p{
 }
 
 .ml-10{
-margin-left:10px;
+   margin-left:10px;
 }
 
 .item-left{
@@ -406,7 +375,7 @@ margin-left:10px;
     display: -webkit-box; 
     display:-webkit-flexbox;
     display: -ms-flexbox;
-   flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .text-left{
@@ -450,1241 +419,293 @@ margin-left:10px;
 
 .button-primary{
     text-transform: uppercase;
-    /* letter-spacing: 2px; */
     font-size: 20px;
     margin-top: 20px;
     color: white;
-     padding: 10px;
+    padding: 10px;
     font-weight: 700;
     background-color: black;
     font-family:  Oswald, sans-serif;
     text-decoration: none;
-    border: white 2px ridge;
-   
-    
+    border: white 2px ridge;   
 }
 
-@media (min-width:240px) and (max-width:320px){
-    .graphical-image{
-        display: none;
+
+@media (min-width:240px) and (max-width:767px){
+      .graphical-image{
+          display: none;
+      }
+
+      .right-side-image{
+          width: 100%;
+      }
+
+      .overlapping-content{
+          position: relative;
+          width: 85%;
+          margin: auto;
+          left: 1rem;
+          top: 1rem;
+      }
+
+       .overlapping-content p{
+           width: 100%;
+       }
+
+      .cards-section{
+          margin-top: 2rem;
+      }
+
+      .cards-container{
+        flex: 100%;
+    }
+    
+    .cards-sibling{
+        width: 85%;
+        margin: auto;
+        flex: 100%;
     }
 
- .left-side-image{
-    flex: 100%;
- }
+    .text-left{
+        text-align: center;
+    }
 
-  .overlapping-content{
-    width: 80%;
+
+
+    .cards-sibling > h4,h2,p{
+          text-align: center;
+    }
+
+    .button-primary{
+        margin-left: 2rem;  
+    }
+
+    .card-text{
+        width: 85%;
+        margin: auto;
+    }
+    
+    .cards-container > div{
+        width: 100%;
+    }
+    
+  .right-side-cards{
+      padding-top: 0px;
+  }
+
+   .graphical-image-rectangle{
+       width: 10rem;
+   }
+
+
+   .info-section{
+       margin-top: 5rem;
+   }
+
+   .graphical-image-lower{
+       width: 5rem;
+       left: 0;
+       bottom: 0;
+       height: 5rem;
+   }
+
+
+.info-container{
+    width: 85%;
     margin: auto;
-    position: relative;
-    top: 20rem;
-  }
-
-  .overlapping-content p{
-      width: 100%;
-  }
-
-  .hero-section{
-      height: 140vh;
-  }
-
-  .graphical-image-rectangle{
-      width: 15rem;
-  }
-
-  .cards-section {
-    position: relative;
-    height: 350vh;
-}
-
-  .cards-container{
-      flex: 100%;
-  }
-
-  .cards-container > div {
-    width: 95%;
-    margin: auto;
-}
-
-.right-side-cards {
-    padding-top: 0rem;
-}
-
-.aboutUs-section{
-    height: 145vh;
-}
-
-.text-left{
-    text-align: center;
 }
 
 .medium-headings{
     font-size: 2rem;
 }
 
-.cards-sibling p,h4{
-    text-align: center;
-}
-
-
-.large-headings{
-    font-size: 3rem;
-}
-
-
-.graphical-image-rectangle-lower {
-    width: 9rem;
-    border-radius: 240px;
-    bottom: 28rem;
-    right: -2rem;
-    height: 9rem;
-}
-
-.graphical-image-lower {
-    width: 50%;
-    top: 18rem;
-    height: 6rem;
-}
-
-.info-section {
-    height: 145vh;
-}
-
-.aboutUs-text{
-    flex: 100%;
-}
-
-.graphical-image-aboutUs {
-    width: 10rem;
-    top: 38rem;
-    z-index: -1;
-    height: 10rem;
-    left: -1rem;
-    border-radius: 138px;
-}
-
 .team-member-card{
     flex: 100%;
+    padding: 10px;
+    border-radius: .1rem; 
+    box-shadow: rgba(0, 0, 0, 0.2) 5px 5px 20px 0px;
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
 }
 
-.team-member-card p{
-  width: 100%;
+.team-member{
+    width: 40%;
 }
 
-.branding-info-image{
-    height: 45rem;
+.large-headings{
+    font-size: 2rem;
 }
 
-.branding-info-text {
-    width: 75%;
-    height: 40rem;
+.graphical-image-rectangle-lower{
+    width: 10rem;
+    height: 10rem;
 }
 
-.button-primary{
-    margin-left: 10px;
+.branding-info-text{
+    width: 85% ;
+    height: 70%;    
 }
 
 .brand-heading{
-    font-size: 2rem;
-}
-
-
-.brand-button {
-    margin-top: 35px;
-    margin-left: 2px;
-}
-
-.contact-text {
-    font-size: 18px; 
-    width: 95%;
-    margin: auto;
+    margin-left: 1rem;
+    font-size: 1.8rem;
 }
 
 p{
-    font-size: 1.2rem;
-}
-
-.contactUs-section{
-    height:115vh;
-    margin-top: 8rem;
+    font-size: 1rem;
 }
 
 .footer-elements{
-    height: 35rem;
-}
+   height: 25rem;      
 }
 
-@media (min-width:321px) and (max-width:400px){
+
+}
+
+
+@media (min-width:768px) and (max-width:1024px){
     .graphical-image{
         display: none;
     }
 
- .left-side-image{
-    flex: 100%;
- }
+    .right-side-image{
+        width: 100%;
+    }
 
-  .overlapping-content{
-    width: 80%;
-    margin: auto;
-    position: relative;
-    top: 26rem;
+    .overlapping-content{
+        position: relative;
+        width: 85%;
+        margin: auto;
+        left: 1rem;
+        top: 1rem;
+    }
+
+     .overlapping-content p{
+         width: 100%;
+     }
+
+    .cards-section{
+        margin-top: 2rem;
+    }
+
+    .cards-container{
+      flex: 100%;
   }
-
-  .overlapping-content p{
-      width: 100%;
-  }
-
-  .hero-section{
-      height: 105vh;
-  }
-
-  .graphical-image-rectangle{
-      width: 15rem;
-  }
-
-  .cards-section {
-    position: relative;
-    height: 125rem;
-    margin-top: 15rem;
-  }
-
-  .cards-container{
+  
+  .cards-sibling{
+      width: 85%;
+      margin: auto;
       flex: 100%;
   }
 
-  .cards-container > div {
-    width: 95%;
-    margin: auto;
+  .text-left{
+      text-align: center;
+  }
+
+
+
+  .cards-sibling > h4,h2,p{
+        text-align: center;
+  }
+
+  .button-primary{
+      margin-left: 2rem;  
+  }
+
+  .card-text{
+      width: 85%;
+      margin: auto;
+  }
+  
+  .cards-container > div{
+      width: 100%;
+  }
+  
+.right-side-cards{
+    padding-top: 0px;
 }
 
-*{
-    padding: 0;
-    margin: 0;
+ .graphical-image-rectangle{
+     width: 10rem;
+ }
+
+
+ .info-section{
+     margin-top: 2rem;
+ }
+
+ .graphical-image-lower{
+     width: 5rem;
+     left: 0;
+     bottom: 0;
+     height: 5rem;
+ }
+
+
+.info-container{
+  width: 85%;
+  margin: auto;
 }
 
-.cards-sibling {
-    top: 1rem;
-}
-
-.right-side-cards {
-    padding-top: 0rem;
+.medium-headings{
+  font-size: 2rem;
 }
 
 .aboutUs-section{
-    height: 110vh;
-}
-
-.text-left{
-    text-align: center;
-}
-
-.medium-headings{
-    font-size: 3rem;
-}
-
-.cards-sibling p,h4{
-    text-align: center;
-}
-
-
-
-.graphical-image-rectangle-lower {
-    width: 9rem;
-    border-radius: 240px;
-    bottom: 28rem;
-    right: -2rem;
-    height: 9rem;
-}
-
-.graphical-image-lower {
-    width: 50%;
-    top: 18rem;
-    height: 6rem;
-}
-
-.info-section {
-    height: 144vh;
-}
-
-.aboutUs-section{
-    height: 131vh;
-}
-
-.aboutUs-text{
-    flex: 100%;
-}
-
-.graphical-image-aboutUs {
-    width: 10rem;
-    top: 38rem;
-    z-index: -1;
-    height: 10rem;
-    left: -1rem;
-    border-radius: 138px;
+    margin-top: 2rem;
 }
 
 .team-member-card{
-    flex: 100%;
+  flex: 100%;
+  padding: 10px;
+  border-radius: .1rem; 
+  box-shadow: rgba(0, 0, 0, 0.2) 5px 5px 20px 0px;
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
 }
 
-.team-member-card p{
-  width: 100%;
+.team-member-section{
+    margin-top: 2rem;
 }
 
-.branding-info-image{
-    height: 45rem;
+.team-member{
+  width: 40%;
 }
 
-.branding-info-text {
-    width: 75%;
-    height: 35rem;
-}
-
-
-
-.brand-button {
-    margin-top: 75px;
-    margin-left: 2px;
-}
-
-.contact-text {
-    font-size: 18px; 
-    width: 95%;
-    margin: auto;
-}
-
-p{
-    font-size: 1.2rem;
-}
-
-.contactUs-section{
-    height:115vh;
-    margin-top: 8rem;
-}
-
-.footer-elements{
-    height: 35rem;
-}
-
-}
-
-@media (min-width:401px) and (max-width:480px){
-    .graphical-image{
-        display: none;
-    }
-
- .left-side-image{
-    flex: 100%;
- }
-
-  .overlapping-content{
-    width: 80%;
-    margin: auto;
-    position: relative;
-    top: 30rem;
-  }
-
-  .overlapping-content p{
-      width: 100%;
-  }
-
-  .hero-section{
-      height: 100vh;
-  }
-
-  .graphical-image-rectangle{
-      width: 15rem;
-  }
-
-  .cards-section {
-    position: relative;
-    height: 125rem;
-    margin-top: 15rem;
-  }
-
-  .cards-container{
-      flex: 100%;
-  }
-
-  .cards-container > div {
-    width: 95%;
-    margin: auto;
-}
-
-*{
-    padding: 0;
-    margin: 0;
-}
-
-.cards-sibling {
-    top: 1rem;
-}
-
-.right-side-cards {
-    padding-top: 0rem;
-}
-
-.aboutUs-section{
-    height: 110vh;
-}
-
-.text-left{
-    text-align: center;
-}
-
-.medium-headings{
-    font-size: 3rem;
-}
-
-.cards-sibling p,h4{
-    text-align: center;
-}
-
-
-
-.graphical-image-rectangle-lower {
-    width: 9rem;
-    border-radius: 240px;
-    bottom: 28rem;
-    right: -2rem;
-    height: 9rem;
-}
-
-.graphical-image-lower {
-    width: 50%;
-    top: 18rem;
-    height: 6rem;
-}
-
-.info-section {
-    height: 120vh;
-}
-
-.aboutUs-text{
-    flex: 100%;
-}
-
-.graphical-image-aboutUs {
-    width: 10rem;
-    top: 38rem;
-    z-index: -1;
-    height: 10rem;
-    left: -1rem;
-    border-radius: 138px;
-}
-
-.team-member-card{
-    flex: 100%;
-}
-
-.team-member-card p{
-  width: 100%;
-}
-
-.branding-info-image{
-    height: 45rem;
-}
-
-.branding-info-text {
-    width: 75%;
-    height: 35rem;
-}
-
-
-
-.brand-button {
-    margin-top: 75px;
-    margin-left: 2px;
-}
-
-.contact-text {
-    font-size: 18px; 
-    width: 95%;
-    margin: auto;
-}
-
-p{
-    font-size: 1.2rem;
-}
-
-.contactUs-section{
-    height:115vh;
-    margin-top: 8rem;
-}
-
-.footer-elements{
-    height: 27rem;
-}
-
-}
-
-@media (min-width:481px) and (max-width:600px){
-    .graphical-image{
-        display: none;
-    }
-
- .left-side-image{
-    flex: 100%;
- }
-
- 
-
-  .overlapping-content{
-    width: 80%;
-    margin: auto;
-    position: relative;
-    top: 40rem;
-  }
-
-  .overlapping-content p{
-      width: 100%;
-  }
-
-  .hero-section{
-      height: 90vh;
-  }
-
-  .graphical-image-rectangle{
-      width: 15rem;
-  }
-
-  .cards-section {
-    position: relative;
-    height: 186vh;
-    margin-top: 14rem;
-}
-
-.cards-container{
-    flex: 100%;
-}
-
-  .cards-container > div {
-    width: 95%;
-    margin: auto;
-}
-
-.right-side-cards {
-    padding-top: 0rem;
-}
-
-.text-left{
-    text-align: center;
-}
-
-.medium-headings{
-    font-size: 3rem;
-}
-
-.cards-sibling p,h4{
-    text-align: center;
-}
-
-
-
-.graphical-image-rectangle-lower {
-    width: 9rem;
-    border-radius: 240px;
-    bottom: 28rem;
-    right: -2rem;
-    height: 9rem;
-}
-
-.graphical-image-lower {
-    width: 50%;
-    top: 18rem;
-    height: 6rem;
-}
-
-.info-section {
-    height: 110vh;
-}
-
-
-
-.aboutUs-text{
-    flex: 100%;
-}
-
-.graphical-image-aboutUs {
-    width: 10rem;
-    top: 38rem;
-    z-index: -1;
-    height: 10rem;
-    left: -1rem;
-    border-radius: 138px;
+.large-headings{
+  font-size: 2rem;
 }
 
 .team-heading{
-    margin-top: 40px;
+    margin-top: 2rem;
 }
 
-.team-member-card{
-    flex: 100%;
+.graphical-image-rectangle-lower{
+  width: 10rem;
+  height: 10rem;
 }
 
-.team-member-card p{
-  width: 100%;
+.branding-info-text{
+  width: 85% ;
+  height: 45%;    
 }
 
-.branding-info-image{
-    height: 45rem;
-}
-
-.branding-info-text {
-    width: 75%;
-    height: 23rem;
-}
-
-
-
-.brand-button {
-    margin-top: 5rem;
-    margin-left: 2px;
-}
-
-.contact-text {
-    font-size: 18px; 
-    width: 95%;
-    margin: auto;
+.brand-heading{
+  margin-left: 1rem;
+  font-size: 1.8rem;
 }
 
 p{
-    font-size: 1.4rem;
-}
-
-.contactUs-section{
-    height:85vh;
-    margin-top: 8rem;
+  font-size: 1rem;
 }
 
 .footer-elements{
-    height: 35rem;
+ height: 25rem;      
 }
-}
-
-@media (min-width:601px) and (max-width:767px){
-    .graphical-image{
-        display: none;
-    }
-
- .left-side-image{
-    flex: 100%;
- }
-
- 
-
-  .overlapping-content{
-    width: 80%;
-    margin: auto;
-    position: relative;
-    top: 45rem;
-  }
-
-  .overlapping-content p{
-      width: 100%;
-  }
-
-  .hero-section{
-      height: 190vh
-  }
-
-  .graphical-image-rectangle{
-      width: 15rem;
-  }
-
-  .cards-section {
-    position: relative;
-    height: 510vh;
-    margin-top: 25rem;
-}
-
-.cards-container{
-    flex: 100%;
-}
-
-.info-container{
-    flex: 100%;
-}
-
-  .cards-container > div {
-    width: 95%;
-    margin: auto;
-}
-
- .aboutUs-section{
-     height: 231vh;
- }
-
-.right-side-cards {
-    padding-top: 0rem;
-}
-
-.text-left{
-    text-align: center;
-}
-
-.medium-headings{
-    font-size: 3rem;
-}
-
-.cards-sibling p,h4{
-    text-align: center;
-}
-
-
-
-.graphical-image-rectangle-lower {
-    width: 9rem;
-    border-radius: 240px;
-    bottom: 28rem;
-    right: -2rem;
-    height: 9rem;
-}
-
-.graphical-image-lower {
-    width: 50%;
-    top: 18rem;
-    height: 6rem;
-}
-
-.info-section {
-    height: 95vh;
-}
-
-
-
-.aboutUs-text{
-    flex: 100%;
-}
-
-.graphical-image-aboutUs {
-    width: 10rem;
-    top: 38rem;
-    z-index: -1;
-    height: 10rem;
-    left: -1rem;
-    border-radius: 138px;
-}
-
-.team-heading{
-    margin-top: 40px;
-}
-
-.team-member-card{
-    flex: 100%;
-}
-
-.team-member-card p{
-  width: 100%;
-}
-
-.branding-info-image{
-    height: 45rem;
-}
-
-.branding-info-text {
-    width: 75%;
-    height: 18rem;
-}
-
-
-
-.brand-button {
-    margin-top: 5rem;
-    margin-left: 2px;
-}
-
-.contact-text {
-    font-size: 18px; 
-    width: 95%;
-    margin: auto;
-}
-
-p{
-    font-size: 1.4rem;
-}
-
-.contactUs-section{
-    height:175vh;
-    margin-top: 8rem;
-}
-
-.footer-elements{
-    height: 35rem;
-}
-}
-
-@media (min-width:768px) and (max-width:900px){
-    .graphical-image{
-        display: none;
-    }
-
- .left-side-image{
-    flex: 100%;
- }
-
- .button-primary{
-     margin-left: 35px;
- }
-
-
-  .overlapping-content{
-    width: 80%;
-    margin: auto;
-    position: relative;
-    top: 57rem;
-  }
-
-  .overlapping-content p{
-      width: 100%;
-  }
-
-  .hero-section{
-      height: 115vh;
-  }
-
-  .graphical-image-rectangle{
-      width: 15rem;
-  }
-
-  .cards-section {
-    position: relative;
-    height: 165vh;
-}
-
-.cards-sibling h4{
-    font-size: 2rem;
-}
-
-.cards-container{
-    flex: 100%;
-}
-
-
-  .cards-container > div {
-    width: 95%;
-    margin: auto;
-}
-
-.right-side-cards {
-    padding-top: 0rem;
-}
-
-.text-left{
-    text-align: center;
-}
-
-
-
-.medium-headings{
-    font-size: 3rem;
-}
-
-.cards-sibling p,h4{
-    text-align: center;
-}
-
-
-
-.graphical-image-rectangle-lower {
-    width: 9rem;
-    border-radius: 240px;
-    bottom: 28rem;
-    right: -2rem;
-    height: 9rem;
-}
-
-.graphical-image-lower {
-    width: 50%;
-    top: 18rem;
-    height: 6rem;
-}
-
-.info-section {
-    height: 90vh;
-}
-
-.info-container{
-    flex: 100%;
-}
-
-
-.aboutUs-text{
-    flex: 100%;
-}
-
-.graphical-image-aboutUs {
-    width: 10rem;
-    top: 38rem;
-    z-index: -1;
-    height: 10rem;
-    left: -1rem;
-    border-radius: 138px;
-}
-
-.team-heading{
-    margin-top: 40px;
-}
-
-.team-member-card{
-    flex: 100%;
-}
-
-.team-member-card p{
-  width: 100%;
-}
-
-.branding-info-image{
-    height: 45rem;
-}
-
-.branding-info-text {
-    width: 75%;
-    height: 22rem;
-}
-
-
-
-.brand-button {
-    margin-top: 7rem;
-    margin-left: 2px;
-}
-
-
-
-.contact-text {
-    font-size: 35px; 
-    width: 95%;
-    margin: auto;
-}
-
-p{
-    font-size: 2rem;
-}
-
-.contactUs-section{
-    height:65vh;
-    margin-top: 8rem;
-}
-
-.footer-elements{
-    height: 35rem;
-}   
-}
-
-@media (min-width:901px) and (max-width:1024px){
-    .graphical-image{
-        display: none;
-    }
-
- .left-side-image{
-    flex: 100%;
- }
-
- .button-primary{
-     margin-left: 35px;
- }
-
-
-  .overlapping-content{
-    width: 80%;
-    margin: auto;
-    position: relative;
-    top: 70rem;
-  }
-
-  .overlapping-content p{
-      width: 100%;
-  }
-
-  .hero-section{
-      height: 120vh;
-  }
-
-  .graphical-image-rectangle{
-      width: 15rem;
-  }
-
-  .cards-section {
-    position: relative;
-    height: 150vh;
-}
-
-.cards-sibling h4{
-    font-size: 2rem;
-}
-
-.cards-container{
-    flex: 100%;
-}
-
-
-  .cards-container > div {
-    width: 95%;
-    margin: auto;
-}
-
-.right-side-cards {
-    padding-top: 0rem;
-}
-
-.text-left{
-    text-align: center;
-}
-
-
-
-.medium-headings{
-    font-size: 3rem;
-}
-
-.cards-sibling p,h4{
-    text-align: center;
-}
-
-
-
-.graphical-image-rectangle-lower {
-    width: 9rem;
-    border-radius: 240px;
-    bottom: 28rem;
-    right: -2rem;
-    height: 9rem;
-}
-
-.graphical-image-lower {
-    width: 50%;
-    top: 18rem;
-    height: 6rem;
-}
-
-.info-section {
-    height: 90vh;
-}
-
-.info-container{
-    flex: 100%;
-}
-
-
-.aboutUs-text{
-    flex: 100%;
-}
-
-.graphical-image-aboutUs {
-    width: 10rem;
-    top: 38rem;
-    z-index: -1;
-    height: 10rem;
-    left: -1rem;
-    border-radius: 138px;
-}
-
-.team-heading{
-    margin-top: 40px;
-}
-
-.team-member-card{
-    flex: 100%;
-}
-
-.team-member-card p{
-  width: 100%;
-}
-
-.branding-info-image{
-    height: 45rem;
-}
-
-.branding-info-text {
-    width: 75%;
-    height: 17rem;
-}
-
-
-
-.brand-button {
-    margin-top: 5rem;
-    margin-left: 2px;
-}
-
-
-
-.contact-text {
-    font-size: 35px; 
-    width: 95%;
-    margin: auto;
-}
-
-p{
-    font-size: 2.3rem;
-}
 
-.contactUs-section{
-    height:65vh;
-    margin-top: 8rem;
-}
-
-.footer-elements{
-    height: 35rem;
-}   
-}
-
-@media (min-width:1025px) and (max-width:1200px){
-    .graphical-image{
-        display: none;
-    }
-
- .left-side-image{
-    flex: 100%;
- }
-
- .button-primary{
-     margin-left: 35px;
- }
-
-
-  .overlapping-content{
-    width: 80%;
-    margin: auto;
-    position: relative;
-    top: 70rem;
-  }
-
-  .overlapping-content p{
-      width: 100%;
-  }
-
-  .hero-section{
-      height: 115vh;
-  }
-
-  .graphical-image-rectangle{
-      width: 15rem;
-  }
-
-  .cards-section {
-    position: relative;
-    height: 150vh;
-}
-
-.cards-sibling h4{
-    font-size: 2rem;
-}
-
-.cards-container{
-    flex: 100%;
-}
-
-
-  .cards-container > div {
-    width: 95%;
-    margin: auto;
-}
-
-.right-side-cards {
-    padding-top: 0rem;
-}
-
-.text-left{
-    text-align: center;
-}
-
-
-
-.medium-headings{
-    font-size: 3rem;
-}
-
-.cards-sibling p,h4{
-    text-align: center;
-}
-
-
 
-.graphical-image-rectangle-lower {
-    width: 9rem;
-    border-radius: 240px;
-    bottom: 28rem;
-    right: -2rem;
-    height: 9rem;
 }
 
-.graphical-image-lower {
-    width: 50%;
-    top: 18rem;
-    height: 6rem;
-}
-
-.info-section {
-    height: 90vh;
-}
-
-.info-container{
-    flex: 100%;
-}
-
-
-.aboutUs-text{
-    flex: 100%;
-}
-
-.graphical-image-aboutUs {
-    width: 10rem;
-    top: 38rem;
-    z-index: -1;
-    height: 10rem;
-    left: -1rem;
-    border-radius: 138px;
-}
-
-.team-heading{
-    margin-top: 40px;
-}
-
-.team-member-card{
-    flex: 100%;
-}
-
-.team-member-card p{
-  width: 100%;
-}
 
-.branding-info-image{
-    height: 45rem;
-}
-
-.branding-info-text {
-    width: 75%;
-    height: 35rem;
-}
-
-
-
-.brand-button {
-    margin-top: 10rem;
-    margin-left: 2px;
-}
-
 
-
-.contact-text {
-    font-size: 35px; 
-    width: 95%;
-    margin: auto;
-}
-
-p{
-    font-size: 2rem;
-}
-
-.contactUs-section{
-    height:65vh;
-    margin-top: 8rem;
-}
-
-.footer-elements{
-    height: 35rem;
-}   
-}
 
