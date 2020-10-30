@@ -524,6 +524,7 @@ p{
 }
 
 .team-member{
+    border-radius: 30rem;
     width: 40%;
 }
 
@@ -664,6 +665,7 @@ p{
 }
 
 .team-member{
+  border-radius: 30rem;
   width: 40%;
 }
 
