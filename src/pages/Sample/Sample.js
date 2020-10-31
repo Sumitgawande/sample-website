@@ -62,7 +62,6 @@ const Sample = (props) => {
                         </div>
                     </div>
                 </div>
-
                 <div className="cards-sibling">
                     <h4>ABOUT</h4>
                     <h2 className="medium-headings text-left">Need Amazing Design?</h2>
@@ -86,8 +85,6 @@ const Sample = (props) => {
                     <p className="text-center text-left">Quickly incentivize impactful action items before tactical collaboration and idea-sharing. Monotonically engage market-driven intellectual capital  wireless opportunities. Progressively network performance based services for functionalized testing procedures.</p>
                     <Link className="button-secondary" to="/">LEARN MORE</Link>
                 </div>
-            
-
             </div>
 
             <section className="flex aboutUs-section justify-center item-center">

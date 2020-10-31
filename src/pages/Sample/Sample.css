@@ -106,6 +106,8 @@
 
 .team-member{
     width: 30%;
+    -webkit-border-radius: 30rem;
+    -moz-border-radius: 30rem;
     border-radius: 30rem;
 }
 
@@ -525,7 +527,9 @@ p{
 
 .team-member{
     border-radius: 30rem;
-    width: 40%;
+    -webkit-border-radius: 30rem;
+   -moz-border-radius: 30rem;
+   width: 40%;
 }
 
 .large-headings{
@@ -666,6 +670,8 @@ p{
 
 .team-member{
   border-radius: 30rem;
+  -webkit-border-radius: 30rem;
+   -moz-border-radius: 30rem;
   width: 40%;
 }
 
