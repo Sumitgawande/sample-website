@@ -1,6 +1,3 @@
-
-
-
 .graphical-image{
     width: 300px;
     height: 300px;
@@ -104,12 +101,18 @@
 }
 
 
-.team-member{
+.team-member {
     width: 30%;
     -webkit-border-radius: 30rem;
     -moz-border-radius: 30rem;
     border-radius: 30rem;
+    border-top-left-radius: 30rem;
+    border-top-right-radius: 30rem;
+    border-bottom-left-radius: 30rem;
+    border-bottom-right-radius: 30rem;
 }
+
+
 
 .team-member-card{
 flex: 50%;  
@@ -674,6 +677,8 @@ p{
    -moz-border-radius: 30rem;
   width: 40%;
 }
+
+
 
 .large-headings{
   font-size: 2rem;
