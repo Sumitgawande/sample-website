@@ -110,7 +110,8 @@
     border-top-right-radius: 30rem;
     border-bottom-left-radius: 30rem;
     border-bottom-right-radius: 30rem;
-    border-collapse: separate;
+    overflow: hidden;
+    perspective: 1px;
 }
 
 
@@ -543,7 +544,8 @@ p{
    border-bottom-right-radius: 30rem;
    
    width: 40%;
-   border-collapse: separate;
+   overflow: hidden;
+   perspective: 1px;
 }
 
 .large-headings{
@@ -690,9 +692,10 @@ p{
    border-top-right-radius: 30rem;
    border-bottom-left-radius: 30rem;
    border-bottom-right-radius: 30rem;
-   
+   overflow: hidden;
+   perspective: 1px;
   width: 40%;
-  border-collapse: separate;
+  
 }
 
 
