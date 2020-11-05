@@ -532,6 +532,13 @@ p{
     border-radius: 30rem;
     -webkit-border-radius: 30rem;
    -moz-border-radius: 30rem;
+   /* -webkit-border-radius: 30rem; */
+   /* -moz-border-radius: 30rem; */
+   /* border-radius: 30rem; */
+   border-top-left-radius: 30rem;
+   border-top-right-radius: 30rem;
+   border-bottom-left-radius: 30rem;
+   border-bottom-right-radius: 30rem;
    width: 40%;
 }
 
@@ -675,6 +682,10 @@ p{
   border-radius: 30rem;
   -webkit-border-radius: 30rem;
    -moz-border-radius: 30rem;
+   border-top-left-radius: 30rem;
+   border-top-right-radius: 30rem;
+   border-bottom-left-radius: 30rem;
+   border-bottom-right-radius: 30rem;
   width: 40%;
 }
 
