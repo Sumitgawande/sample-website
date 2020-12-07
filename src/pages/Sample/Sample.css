@@ -101,35 +101,6 @@
 }
 
 
-.team-member {
-    width: 30%;
-    -webkit-border-radius: 30rem;
-    -moz-border-radius: 30rem;
-    border-radius: 30rem;
-    border-top-left-radius: 30rem;
-    border-top-right-radius: 30rem;
-    border-bottom-left-radius: 30rem;
-    border-bottom-right-radius: 30rem;
-    overflow: hidden;
-    perspective: 1px;
-}
-
-
-
-.team-member-card{
-flex: 50%;  
-}
-
-.team-member-card ul{
-    list-style-type: none;    
-}
-
-
-.team-member-card ul li a{
-    color: black;
-    padding-right: 10px;
-}
-
 .team-info{
     height: 100px;
 }
@@ -207,6 +178,41 @@ flex: 50%;
     margin: auto;
 }
 
+
+
+
+
+.team-member-card{
+flex: 50%;  
+padding-bottom: 10px;
+padding-top: 10px;
+}
+
+.team-member {
+    width: 30%;
+    -webkit-border-radius: 30rem;
+    -moz-border-radius: 30rem;
+    border-radius: 30rem;
+    border-top-left-radius: 30rem;
+    border-top-right-radius: 30rem;
+    border-bottom-left-radius: 30rem;
+    border-bottom-right-radius: 30rem;
+    overflow: hidden;
+    perspective: 1px;
+}
+
+
+.team-member-card ul{
+    list-style-type: none;    
+}
+
+
+.team-member-card ul li a{
+    color: black;
+    padding-right: 10px;
+}
+
+
 .graphical-image-recFull{
     position: absolute;
     top: 8rem;
@@ -221,10 +227,7 @@ flex: 50%;
     width: 50%;
 }
 
-.team-member-card{
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
+
 
 .team-heading{
     padding: 15px;
@@ -535,15 +538,10 @@ p{
     border-radius: 30rem;
     -webkit-border-radius: 30rem;
    -moz-border-radius: 30rem;
-   /* -webkit-border-radius: 30rem; */
-   /* -moz-border-radius: 30rem; */
-   /* border-radius: 30rem; */
    border-top-left-radius: 30rem;
    border-top-right-radius: 30rem;
-   
    border-bottom-left-radius: 30rem;
    border-bottom-right-radius: 30rem;
-   
    width: 40%;
    overflow: hidden;
    perspective: 1px;

@@ -129,8 +129,6 @@ const Sample = (props) => {
                         <h2 className="text-left-team">Name of member</h2>
                         <p className="text-left-team">Job profile</p>
                         <p className="text-left-team"> This is the sample text where a little description of his/her job</p>
-
-
                         <ul className="flex item-left">
                             <li><Link to='/'><i className='fa fa-facebook'></i></Link></li>
                             <li><Link to='/'><i className='fa fa-twitter'></i></Link></li>
@@ -145,7 +143,6 @@ const Sample = (props) => {
                         <h2 className="text-left-team">Name of member</h2>
                         <p className="text-left-team">Job profile</p>
                         <p className="text-left-team"> This is the sample text where a little description of his/her job</p>
-
                         <ul className="flex item-left">
                             <li><Link to='/'><i className='fa fa-facebook'></i></Link></li>
                             <li><Link to='/'><i className='fa fa-twitter'></i></Link></li>
