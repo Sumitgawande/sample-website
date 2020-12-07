@@ -73,7 +73,7 @@ const Sample = (props) => {
             </div>  
 
             <div className="info-section flex justify-center item-center">
-                <div >
+                <div>
                     <p className="graphical-image-rectangle-lower"></p>
                 </div>
                 <div >
@@ -88,10 +88,10 @@ const Sample = (props) => {
             </div>
 
             <section className="flex aboutUs-section justify-center item-center">
-                <div >
+                <div>
                     <p className="graphical-image-aboutUs"></p>
                 </div>
-                <div >
+                <div>
                     <p className="graphical-image-aboutUs-square"></p>
                 </div>
                 <img className="aboutUs-image" src={'/images/daniel-korpai-mxPiMiz7KCo-unsplash.jpg'} alt='aboutUs' />
