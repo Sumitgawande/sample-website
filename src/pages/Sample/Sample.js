@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './Sample.css'
 import '../../App.css'
-import './sample.scss'
 import Navbar from '../../components/Navbar/Navbar'
 /**
 * @author
@@ -107,9 +106,10 @@ const Sample = (props) => {
                     <p className="graphical-image-recFull"></p>
                 </div>
                 <div className="team-member-card flex">
-                    
+
                     <img className="team-member" src={'/images/4.jpg'} alt='team-member' />
-                    
+
+                
                     <div className="item-center">
                         <h2 className="text-left-team">Name of member</h2>
                         <p className="text-left-team">Job profile</p>
