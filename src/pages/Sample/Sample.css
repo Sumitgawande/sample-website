@@ -551,7 +551,7 @@ p{
 }
 
 .team-member{
-    border-radius: 30rem;
+    /* border-radius: 30rem;
     -webkit-border-radius: 30rem;
    -moz-border-radius: 30rem;
    border-top-left-radius: 30rem;
@@ -562,9 +562,11 @@ p{
    -webkit-border-top-right-radius:30rem; 
    -webkit-border-bottom-left-radius:30rem;  
    -webkit-border-bottom-right-radius:30rem; 
-   width: 40%;
+   
    overflow: hidden;
    perspective: 1px;
+    */
+   width: 40%;
 }
 
 .large-headings{
@@ -708,7 +710,7 @@ p{
 }
 
 .team-member{
-   border-radius: 30rem;
+   /* border-radius: 30rem;
    -webkit-border-radius: 30rem;
    -moz-border-radius: 30rem;
    border-top-left-radius: 30rem;
@@ -720,7 +722,7 @@ p{
    -webkit-border-bottom-left-radius:30rem;  
    -webkit-border-bottom-right-radius:30rem;  
    overflow: hidden;
-   perspective: 1px;
+   perspective: 1px; */
    width: 40%; 
 }
 
