@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './Sample.css'
 import '../../App.css'
+import './sample.scss'
 import Navbar from '../../components/Navbar/Navbar'
 /**
 * @author
@@ -122,7 +123,7 @@ const Sample = (props) => {
                         </ul>
                     </div>
                 </div>
-                <div className="team-member-card flex">
+                <div className="team-member-card flex flexscss">
                     <img className="team-member" src={'/images/5.jpg'} alt='team-member' />
                     <div className="item-center">
                         <h2 className="text-left-team">Name of member</h2>

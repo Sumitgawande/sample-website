@@ -1,0 +1,5 @@
+.flexscss{
+    @include flex();
+    @include flex-wrap();
+    flex-flow: row;
+}
