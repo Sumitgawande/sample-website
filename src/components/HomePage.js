@@ -26,9 +26,7 @@ useEffect(()=>{
   if(value === 0){
     setName('Rick');
   }else{
-
-    
-    setName("Morty");
+    setName("Morty");     
   }
  
 },[value])
